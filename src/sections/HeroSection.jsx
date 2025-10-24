@@ -1,9 +1,6 @@
-import React from "react";
-import { Box, Grid, Stack, Typography } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import MUITypography from "../components/typography/MUITypography";
 import ImageGridSection from "./ImageGridSection";
-
-// Example images (replace with real URLs)
 
 export default function HeroSection() {
   return (

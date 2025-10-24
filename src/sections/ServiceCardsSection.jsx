@@ -1,7 +1,5 @@
-import React from "react";
-import { Box, Grid, Card, CardMedia, Typography } from "@mui/material";
+import { Grid, Card, CardMedia, Typography } from "@mui/material";
 
-// Import local images (place your images inside /src/assets/)
 import KitchenImg from "../assets/kitchen.png";
 import BathroomImg from "../assets/bathroom.png";
 import CleaningImg from "../assets/cleaning.png";

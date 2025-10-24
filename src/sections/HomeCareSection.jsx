@@ -56,7 +56,7 @@ export default function HomeCareSection() {
               fontSize: { xs: "1rem", sm: "1.125rem", md: "1.25rem" },
               lineHeight: 1.7,
               color: "#181818",
-              maxWidth: 520, // Keeps readable line length
+              maxWidth: 520, 
             }}
           >
             Explore Space home care essentials — expert cleaning, plumbing, AC
