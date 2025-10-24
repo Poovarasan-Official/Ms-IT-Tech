@@ -11,6 +11,7 @@ const services = [
   { title: "Bathroom Services", img: BathroomImg },
   { title: "Home Services", img: HomeImg },
 ];
+const colors = ["#FFA500", "#4CAF50", "#2196F3", "#FF5722"];
 
 export default function ServiceCardsSection() {
   return (
@@ -23,7 +24,8 @@ export default function ServiceCardsSection() {
                 borderRadius: 3,
                 overflow: "hidden",
                 textAlign: "center",
-                p: 2,
+                bgcolor: colors[index % colors.length],
+                p: 1,
                 mt:6
               }}
             >
@@ -34,7 +36,7 @@ export default function ServiceCardsSection() {
                 sx={{
                   mb: 2,
                   fontSize: { xs: "1rem", md: "1.125rem" },
-                  color: "#111",
+                  color: "#fff",
                 }}
               >
                 {service.title}

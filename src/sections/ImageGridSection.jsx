@@ -8,7 +8,7 @@ import Rect4 from "../assets/Rectangle 4.png";
 const cards = [
   { img: Rect1, title: ["Skilled Experts,", "Reliable Service"], height: 387 },
   { img: Rect2, title: ["Fast Booking", "Instant Help"], height: 247 },
-  { img: Rect3, title: ["98% Customer Satisfaction"], height: 124 },
+  { img: Rect3, title: [""], height: 124 },
   { img: Rect4, title: ["Safe, Easy,", "On-Demand"], height: 387 },
 ];
 
@@ -23,7 +23,7 @@ export default function ImageGridSection() {
               component="img"
               image={cards[0].img}
               alt={cards[0].title.join(" ")}
-              sx={{ width: "100%", height: "100%", objectFit: "cover" }}
+              sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 2 }}
             />
             <Box sx={{ position: "absolute", bottom: 0, width: "100%", color: "#fff", px: 2, py: 1 }}>
               {cards[0].title.map((line, idx) => (
